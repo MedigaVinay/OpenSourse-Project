@@ -1,0 +1,23 @@
+/*“lshw”-It is a small command-line utility that provides detailed information on the hardware configuration of the machine.
+“lm-sensors”-This tool that provides monitoring of the hardware sensors, including temperature sensors, voltage sensors, and fan speed sensors.
+->First install the lshw and lm-sensors*/
+
+sudo apt-get install lshw lm-sensors
+
+/*Once Both Tools are installed run the following command  i.e “-short”to display an overview of all the hardware and operating system detail:*/
+
+sudo lshw -short
+
+/*This command will output a summary of the hardware configuration, including the CPU, memory, Storage devices, network interfaces, and more.*/
+/*To monitor the temperature and Current usage of Various hardware components run the following command i.e sensors:*/
+
+
+sudo sensors
+
+
+/* This Command will Display a live output of the sensor readings,including temperature readings for the CPU,GPU,and other components , as well as fan speeds and voltage readings.*/
+
+
+
+
+
